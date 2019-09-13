@@ -1,0 +1,21 @@
+@import '../partials/variables';
+
+@mixin font($size: 1em, $family: $main-font, $weight: 400, $color: $white, $transform: normal) {
+  font-size: $size;
+  font-family: $family;
+  font-weight: $weight;
+  color: $color;
+  text-transform: $transform;
+}
+
+@mixin scroll {
+  &::-webkit-scrollbar {
+    width: 0.5em;
+    margin-right: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: $light-blue;
+  }
+}

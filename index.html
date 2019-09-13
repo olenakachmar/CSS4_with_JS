@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./css/main.min.css">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/851ed36a1b.js"></script>
+</head>
+
+<body>
+  <div class="flex-column">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__navbar">
+        <div class="flex-row container header__navbar-wrapper">
+          <a id="#home" class="header__navbar-logo" href="#home">MoGo</a>
+          <nav class="flex-row header__navbar-menu">
+            <ul class="header__navbar-menu-items">
+              <li class="header__navbar-menu-item"><a href="#home">home</a></li>
+              <li class="header__navbar-menu-item"><a href="#about">about</a></li>
+              <li class="header__navbar-menu-item"><a href="#service">service</a></li>
+              <li class="header__navbar-menu-item"><a href="#team">our team</a></li>
+              <li class="header__navbar-menu-item"><a href="#work">work</a></li>
+              <li class="header__navbar-menu-item"><a href="#blog">blog</a></li>
+            </ul>
+            <div class="header__navbar-menu-burger">
+              <i class="fas fa-align-justify"></i>
+            </div>
+            <div class="header__navbar-menu-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="header__navbar-menu-search">
+              <i class="fas fa-search"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="flex-column container-header-info">
+        <h3 class="header__text">Creative Template</h3>
+        <h2 class="header__quote">Welcome <br>to mogo</h2>
+        <div class="header__line line"></div>
+      </div>
+      <button class="header__button">learn more</button>
+      <div class="flex-row header__carousel">
+        <div class="header__carousel-elem">
+          <span class="header__carousel-elem-num">01</span>
+          <h4 class="header__carousel-elem-text">intro</h4>
+        </div>
+        <div class="header__carousel-elem">
+          <span class="header__carousel-elem-num">02</span>
+          <h4 class="header__carousel-elem-text">work</h4>
+        </div>
+        <div class="header__carousel-elem">
+          <span class="header__carousel-elem-num">03</span>
+          <h4 class="header__carousel-elem-text">about</h4>
+        </div>
+        <div class="header__carousel-elem">
+          <span class="header__carousel-elem-num">04</span>
+          <h4 class="header__carousel-elem-text">contacts</h4>
+        </div>
+      </div>
+    </header>
+    <!--/header-->
+
+    <main class="main">
+
+      <!-- main story-->
+      <section id="about" class="container main__story">
+        <div class="flex-column section-header">
+          <h3>What we do</h3>
+          <h2>Story about us</h2>
+          <div class="line"></div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="flex-column hover-wrapper">
+          <div class="hover-background width--30-percents">
+            <div class="hover-photo-wrapper hover-transform">
+              <img src="images/story/img-1.jpg" alt="ear phones on table" class="hover-photo">
+              <div class="flex-column hover-overlay">
+                <i class="fas fa-user-friends fa-3x"></i>
+                <h4>super team</h4>
+              </div>
+            </div>
+          </div>
+          <div class="hover-background width--30-percents">
+            <div class="hover-photo-wrapper hover-transform">
+              <img src="images/story/img-2.jpg" alt="table with laptop" class="hover-photo">
+              <div class="flex-column hover-overlay">
+                <i class="fas fa-camera-retro fa-3x"></i>
+                <h4>creativity</h4>
+              </div>
+            </div>
+          </div>
+          <div class="hover-background width--30-percents">
+            <div class="hover-photo-wrapper hover-transform">
+              <img src="images/story/img-3.jpg" alt="laptop" class="hover-photo">
+              <div class="flex-column hover-overlay">
+                <i class="fas fa-tv fa-3x"></i>
+                <h4>digital</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/main story-->
+
+      <section class="flex-column main__counting">
+        <div class="flex-row container main__counting-list">
+          <div class="flex-column main__counting-item">
+            <div class="main__counting-number">42</div>
+            <div class="main__counting-text">Web Design Projects</div>
+          </div>
+          <div class="main__counting-item">
+            <div class="main__counting-number">123</div>
+            <div class="main__counting-text">happy client</div>
+          </div>
+          <div class="main__counting-item">
+            <div class="main__counting-number">15</div>
+            <div class="main__counting-text">award winner</div>
+          </div>
+          <div class="main__counting-item">
+            <div class="main__counting-number">99</div>
+            <div class="main__counting-text">cup of coffee</div>
+          </div>
+          <div class="main__counting-item">
+            <div class="main__counting-number">24</div>
+            <div class="main__counting-text">members</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service" class="flex-column main__services">
+        <div class="flex-column section-header">
+          <h3>We work with</h3>
+          <h2>amazing services</h2>
+          <div class="line"></div>
+        </div>
+        <div class="container">
+          <div class="main__services-section-wrapper">
+            <div class="main__services-section">
+              <div class="main__services-img-wrapper">
+                <img src="../task_4/images/services/alarm.png" alt="alarm" class="main__services-img">
+              </div>
+              <div class="main__services-text-wrapper">
+                <h4 class="main__services-section-name">Photography</h4>
+                <p class="main__services-section-description">Photography is the science, art and practice of creating
+                  durable images by recording light or other
+                  electromagnetic radiation</p>
+              </div>
+            </div>
+            <div class="main__services-section">
+              <div class="main__services-img-wrapper">
+                <img src="../task_4/images/services/line_graph.png" alt="graph" class="main__services-img">
+              </div>
+              <div class="main__services-text-wrapper">
+                <h4 class="main__services-section-name">Web Design</h4>
+                <p class="main__services-section-description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="main__services-section">
+              <div class="main__services-img-wrapper">
+                <img src="../task_4/images/services/computer.png" alt="computer" class="main__services-img">
+              </div>
+              <div class="main__services-text-wrapper">
+                <h4 class="main__services-section-name">Creativity</h4>
+                <p class="main__services-section-description">Dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod
+                  tempor.</p>
+              </div>
+            </div>
+            <div class="main__services-section">
+              <div class="main__services-img-wrapper">
+                <img src="../task_4/images/services/book.png" alt="book" class="main__services-img">
+              </div>
+              <div class="main__services-text-wrapper">
+                <h4 class="main__services-section-name">seo</h4>
+                <p class="main__services-section-description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod.</p>
+              </div>
+            </div>
+            <div class="main__services-section">
+              <div class="main__services-img-wrapper">
+                <img src="../task_4/images/services/home.png" alt="home" class="main__services-img">
+              </div>
+              <div class="main__services-text-wrapper">
+                <h4 class="main__services-section-name">Css/Html</h4>
+                <p class="main__services-section-description">Lorem dolor sit amet, consectetur adipiscing elit, sed do
+                  tempor.</p>
+              </div>
+            </div>
+            <div class="main__services-section">
+              <div class="main__services-img-wrapper">
+                <img src="../task_4/images/services/digital.png" alt="digital" class="main__services-img">
+              </div>
+              <div class="main__services-text-wrapper">
+                <h4 class="main__services-section-name">digital</h4>
+                <p class="main__services-section-description">Sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__unique">
+        <div class="flex-column section-header">
+          <h3>For all devices</h3>
+          <h2>unique design</h2>
+          <div class="line"></div>
+        </div>
+        <div class="main__unique-photo">
+          <img src="images/unique-design/img-1.png" alt="tablet" class="main__unique-photo-big">
+          <img src="images/unique-design/img-2.png" alt="telephone" class="main__unique-photo-small">
+        </div>
+      </section>
+
+      <section class="main__whatWeDo">
+        <div class="container">
+          <div class="flex-column section-header">
+            <h3>Service</h3>
+            <h2>what we do</h2>
+            <div class="line"></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.
+          </p>
+          <div class="flex-column main__whatWeDo-content">
+            <div class="main__whatWeDo-image">
+              <img src="images/what-we-do/img-1.jpg" alt="person lokking on desk" class="main__whatWeDo-img">
+            </div>
+            <div class="flex-column main__whatWeDo-list">
+              <div id="photography" class="main__whatWeDo-dropdown">
+                <div class="flex-row main__whatWeDo-dropdown-wrapper">
+                  <div class="flex-row mainWhatWedo-icon-wrapper">
+                    <div class="main__whatWeDo-dropdown-icon">
+                      <img src="images/what-we-do/gallery.png" alt="photo icon">
+                    </div>
+                    <h4>photography</h4>
+                  </div>
+                  <div class="main__whatWeDo-dropdown-open">
+                    <i class="fas fa-chevron-up fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="main__whatWeDo-panel">
+                1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </div>
+
+              <div id="creativity" class="main__whatWeDo-dropdown">
+                <div class="flex-row main__whatWeDo-dropdown-wrapper">
+                  <div class="flex-row mainWhatWedo-icon-wrapper">
+                    <div class="main__whatWeDo-dropdown-icon">
+                      <img src="images/what-we-do/equalizer.png" alt="photo icon">
+                    </div>
+                    <h4>creativity</h4>
+                  </div>
+                  <div class="main__whatWeDo-dropdown-open">
+                    <i class="fas fa-chevron-down fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="main__whatWeDo-panel">
+                1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </div>
+
+              <div id="design" class="main__whatWeDo-dropdown">
+                <div class="flex-row main__whatWeDo-dropdown-wrapper">
+                  <div class="flex-row mainWhatWedo-icon-wrapper">
+                    <div class="main__whatWeDo-dropdown-icon">
+                      <img src="images/what-we-do/bullseye.png" alt="photo icon">
+                    </div>
+                    <h4>web design</h4>
+                  </div>
+                  <div class="main__whatWeDo-dropdown-open">
+                    <i class="fas fa-chevron-down fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="main__whatWeDo-panel">
+                1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="flex-column main__testemonial">
+          <div class="flex-row container main__testemonial-list">
+            <div class="main__testemonial-left">
+              <a id="icon-testemonial-prev" class="main__testemonial-prev">&#10094;</a>
+            </div>
+
+            <div class="main__testemonial-wrapper1">
+              <div class="main__whatWeDo-testemonial-icon">
+                <img src="images/services/alarm.png" alt="testemonial person" class="main__testemonial-icon-img">
+              </div>
+              <div class="main__testemonial-text">
+                <p class="italic-text">“Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                </p>
+                <div class="flex-row main__testemonial-signature">
+                  <div class="line"></div>
+                  <p class="main__testemonial-signature-author">Jack Sparrow</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="main__testemonial-wrapper1">
+              <div class="main__whatWeDo-testemonial-icon">
+                <img src="images/testimonial/speech.png" alt="testemonial person" class="main__testemonial-icon-img">
+              </div>
+              <div class="main__testemonial-text">
+                <p class="italic-text">“2222Lorem ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                </p>
+                <div class="flex-row main__testemonial-signature">
+                  <div class="line"></div>
+                  <p class="main__testemonial-signature-author">Bob Dilan</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="main__testemonial-wrapper1">
+              <div class="main__whatWeDo-testemonial-icon">
+                <img src="images/services/book.png" alt="testemonial person" class="main__testemonial-icon-img">
+              </div>
+              <div class="main__testemonial-text">
+                <p class="italic-text">“3333Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                </p>
+                <div class="flex-row main__testemonial-signature">
+                  <div class="line"></div>
+                  <p class="main__testemonial-signature-author">Jon Doe</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="main__testemonial-rigth">
+              <a id="icon-testemonial-next" class="main__testemonial-next">&#10095;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="main__team">
+        <div class="container">
+          <div class="flex-column section-header">
+            <h3>Who we are</h3>
+            <h2>meet out team</h2>
+            <div class="line"></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <div class="flex-column hover-wrapper">
+            <div class="width--30-percents">
+              <div class="hover-background">
+                <div class="hover-photo-wrapper hover-transform">
+                  <img src="images/our-team/img-1.jpg" alt="matthew dix" class="hover-photo">
+                  <div class="flex-row hover-overlay">
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-facebook-f fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-twitter fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-pinterest-p fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-instagram fa-lg"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4>matthew dix</h4>
+              <h5>Graphic Design</h5>
+            </div>
+            <div class="width--30-percents">
+              <div class="hover-background">
+                <div class="hover-photo-wrapper hover-transform">
+                  <img src="images/our-team/img-3.jpg" alt="matthew dix" class="hover-photo">
+                  <div class="flex-row hover-overlay">
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-facebook-f fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-twitter fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-pinterest-p fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-instagram fa-lg"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4>matthew dix</h4>
+              <h5>Graphic Design</h5>
+            </div>
+            <div class="width--30-percents">
+              <div class="hover-background">
+                <div class="hover-photo-wrapper hover-transform">
+                  <img src="images/our-team/img-2.jpg" alt="matthew dix" class="hover-photo">
+                  <div class="flex-row hover-overlay">
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-facebook-f fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-twitter fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-pinterest-p fa-lg"></i>
+                    </div>
+                    <div class="flex-column hover-overlay-icon">
+                      <i class="fab fa-instagram fa-lg"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4>matthew dix</h4>
+              <h5>Graphic Design</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__brand">
+        <div class="container">
+          <div class="flex-row main__brand-list">
+            <div class="main__brand-list-img"><a href="#"><img src="images/brand/img-1.png" alt="hipster"></a></div>
+            <div class="main__brand-list-img"><a href="#"><img src="images/brand/img-2.png" alt="dabc"></a></div>
+            <div class="main__brand-list-img"><a href="#"><img src="images/brand/img-3.png" alt="design quality"></a>
+            </div>
+            <div class="main__brand-list-img"><a href="#"><img src="images/brand/img-4.png"
+                  alt="hipster barbershop"></a></div>
+            <div class="main__brand-list-img"><a href="#"><img src="images/brand/img-5.png"
+                  alt="hipster barbershop"></a></div>
+            <div class="main__brand-list-img"><a href="#"><img src="images/brand/img-6.png"
+                  alt="hipster barbershop"></a></div>
+          </div>
+        </div>
+      </section>
+
+      <sectiion id="work" class="main__portfolio">
+        <div class="flex-column section-header">
+          <h3>What we do</h3>
+          <h2>some of our works</h2>
+          <div class="line"></div>
+        </div>
+        <p class="container">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+
+        <div id="myModal" class="modal">
+          <img class="modal-content" id="moduleImg">
+        </div>
+
+        <div class="main__portfolio-list-wrapper">
+          <div class="main__portfolio-list-elem hover-photo-wrapper">
+            <img src="images/our-work/img-1.jpg" alt="man's back" class="hover-photo main__portfolio-list-photo">
+            <div class="flex-column hover-overlay">
+              <i class="fas fa-crown fa-3x"></i>
+              <h4>creatively designed</h4>
+              <h5>Lorem ipsum dolor sit</h5>
+            </div>
+          </div>
+          <div class="main__portfolio-list-elem hover-photo-wrapper">
+            <img src="images/our-work/img-2.jpg" alt="bridge" class="hover-photo main__portfolio-list-photo">
+            <div class="flex-column hover-overlay">
+              <i class="fas fa-gem fa-3x"></i>
+              <h4>creatively designed</h4>
+              <h5>Lorem ipsum dolor sit</h5>
+            </div>
+          </div>
+          <div class="main__portfolio-list-elem hover-photo-wrapper">
+            <img src="images/our-work/img-3.jpg" alt="jellyfish" class="hover-photo main__portfolio-list-photo">
+            <div class="flex-column hover-overlay">
+              <i class="fas fa-desktop fa-3x"></i>
+              <h4>creatively designed</h4>
+              <h5>Lorem ipsum dolor sit</h5>
+            </div>
+          </div>
+          <div class="main__portfolio-list-elem hover-photo-wrapper">
+            <img src="images/our-work/img-4.jpg" alt="glass" class="hover-photo main__portfolio-list-photo">
+            <div class="flex-column hover-overlay">
+              <i class="fas fa-fan fa-3x"></i>
+              <h4>creatively designed</h4>
+              <h5>Lorem ipsum dolor sit</h5>
+            </div>
+          </div>
+          <div class="main__portfolio-list-elem hover-photo-wrapper">
+            <img src="images/our-work/img-5.jpg" alt="large bridge" class="hover-photo main__portfolio-list-photo">
+            <div class="flex-column hover-overlay">
+              <i class="fas fa-gamepad fa-3x"></i>
+              <h4>creatively designed</h4>
+              <h5>Lorem ipsum dolor sit</h5>
+            </div>
+          </div>
+          <div class="main__portfolio-list-elem hover-photo-wrapper">
+            <img src="images/our-work/img-6.jpg" alt="biulding" class="hover-photo main__portfolio-list-photo">
+            <div class="flex-column hover-overlay">
+              <i class="fas fa-shoe-prints fa-3x"></i>
+              <h4>creatively designed</h4>
+              <h5>Lorem ipsum dolor sit</h5>
+            </div>
+          </div>
+          <div class="main__portfolio-list-elem hover-photo-wrapper">
+            <img src="images/our-work/img-7.jpg" alt="triangle building" class="hover-photo main__portfolio-list-photo">
+            <div class="flex-column hover-overlay">
+              <i class="fas fa-guitar fa-3x"></i>
+              <h4>creatively designed</h4>
+              <h5>Lorem ipsum dolor sit</h5>
+            </div>
+          </div>
+        </div>
+        <div class="flex-column main__testemonial main__testemonial-bg--transparent">
+          <div class="flex-row container main__testemonial-list">
+            <div class="main__testemonial-left">
+              <a id="user-testemonial-prev" class="main__testemonial-prev">&#10094;</a>
+            </div>
+
+            <div class="flex-row main__testemonial-wrapper2">
+              <img src="images/testimonial/img-1.jpg" alt="person photo" class="main__testemonial-img main__testemonial-img--round">
+              <div class="main__testemonial-text">
+                <p class="italic-text">“1111Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                </p>
+                <div class="flex-column main__testemonial-signature">
+                  <div class="line"></div>
+                  <p class="main__testemonial-signature-author">Joshua Earle</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-row main__testemonial-wrapper2">
+              <img src="images/testimonial/img-2.jpg" alt="person photo" class="main__testemonial-img main__testemonial-img--round">
+              <div class="main__testemonial-text">
+                <p class="italic-text">“2222Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                </p>
+                <div class="flex-column main__testemonial-signature">
+                  <div class="line"></div>
+                  <p class="main__testemonial-signature-author">Mike Pipe</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-row main__testemonial-wrapper2">
+              <img src="images/testimonial/img-3.jpg" alt="person photo" class="main__testemonial-img main__testemonial-img--round">
+              <div class="main__testemonial-text">
+                <p class="italic-text">“3333Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                </p>
+                <div class="flex-column main__testemonial-signature">
+                  <div class="line"></div>
+                  <p class="main__testemonial-signature-author">Stiven Griffin</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="main__testemonial-rigth">
+              <a id="user-testemonial-next" class="main__testemonial-next">&#10095;</a>
+            </div>
+          </div>
+        </div>
+      </sectiion>
+
+      <section class="main__clients">
+        <div class="container">
+          <div class="flex-column section-header">
+            <h3>Happy Clients</h3>
+            <h2>what people say</h2>
+            <div class="line"></div>
+          </div>
+          <div class="flex-column main__clients-list">
+            <div class="flex-row main__clients-list-person">
+              <div class="main__clients-list-photo">
+                <a href="#"><img src="images/happy-client/img-1.png" alt="Metthew Dix"
+                    class="main__clients-list-img"></a>
+              </div>
+              <div class="flex-column main__clients-list-info">
+                <h4>Metthew Dix</h4>
+                <h5>Graphic Design</h5>
+                <div class=" line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex
+                  ea commodo consequat.
+                </p>
+              </div>
+            </div>
+            <div class="flex-row main__clients-list-person">
+              <div class="main__clients-list-photo">
+                <a href="#"><img src="images/happy-client/img-2.png" alt="MIKE PETRUCCI"
+                    class="main__clients-list-img"></a>
+              </div>
+              <div class="flex-column main__clients-list-info">
+                <h4>MIKE PETRUCCI</h4>
+                <h5>Graphic Design</h5>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex
+                  ea commodo consequat.
+                </p>
+              </div>
+            </div>
+            <div class="flex-row main__clients-list-person">
+              <div class="main__clients-list-photo">
+                <a href="#"><img src="images/happy-client/img-3.png" alt="Nick Karvounis"
+                    class="main__clients-list-img"></a>
+              </div>
+              <div class="flex-column main__clients-list-info">
+                <h4>Nick Karvounis</h4>
+                <h5>Graphic Design</h5>
+                <div class=" line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex
+                  ea commodo consequat.
+                </p>
+              </div>
+            </div>
+            <div class="flex-row main__clients-list-person">
+              <div class="main__clients-list-photo">
+                <a href="#"><img src="images/happy-client/img-4.png" alt="JAELYNN CASTILLO"
+                    class="main__clients-list-img"></a>
+              </div>
+              <div class="flex-column main__clients-list-info">
+                <h4>JAELYNN CASTILLO</h4>
+                <h5>Graphic Design</h5>
+                <div class=" line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex
+                  ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="main__blog">
+        <div class="container">
+          <div class="flex-column section-header">
+            <h3>Ous stories</h3>
+            <h2>latest blog</h2>
+            <div class="line"></div>
+          </div>
+          <div id = "blogElem" class="flex-column main__blog-wrapper">
+            <div class="flex-column main__blog-article">
+              <div class="main__blog-article-description">
+                <div class="main__blog-photo">
+                  <a href="#"><img src="images/our-blog/img-2.jpg" alt="desk" class="main__blog-photo-img"></a>
+                  <div class="flex-column main__blog-calendar">
+                    <span>13</span>
+                    <span>Jan</span>
+                  </div>
+                </div>
+                <h6>ipsum dolor sit amet</h6>
+                <p class="main__blog-description">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="main__blog-article-viewing">
+                <i class="far fa-eye"></i>
+                <span>20</span>
+                <i class="far fa-envelope"></i>
+                <span>1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__map">
+        <div class="flex-column section-header">
+          <img src="images/map/map-icon.png">
+          <h2 class="color-pink">open map</h2>
+          <div class="line"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="flex-column footer">
+    <div class="flex-column container footer__wrapper">
+      <div class="flex-column footer__left">
+        <h2 class="footer__left-logo">MoGo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <h4><strong>15k</strong> followers</h4>
+        <div class="flex-row  footer__left-social">
+          <h5>Follow us: </h5>
+          <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <form class="flex-row footer__form">
+          <input type="text" placeholder="Your Email..." class="footer__form-input">
+          <button type="submit" class="footer__form-submit">subscribe</button>
+        </form>
+      </div>
+      <div id="footerBlog" class="flex-column footer__center">
+        <h4 class="footer--sections-names">blogs</h4>
+        <div class="flex-row footer__center-blog">
+          <div class="footer__center-blog-photo">
+            <a href="#"><img src="images/our-blog/img-4.jpg" alt="child" class="footer__center-blog-img"></a>
+          </div>
+          <div class="footer__center-blog-info">
+            <h6><a href="#">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING</a></h6>
+            <p class="footer__center-blog-info-time"><em>Jan 9, 2016</em></p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-column footer__right">
+        <h4 class="footer--sections-names">instagram</h4>
+        <div class="footer__instagram">
+          <a href="#"><img src="images/instagram/img-1.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-2.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-3.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-4.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-5.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-6.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-7.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-8.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-9.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-3.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-4.jpg" alt="nature"></a>
+          <a href="#"><img src="images/instagram/img-5.jpg" alt="nature"></a>
+        </div>
+        <a href="#" class="footer__right-morePhoto"><em>View more photos</em></a>
+      </div>
+    </div>
+
+    <div class="footer__copyright">&copy; MoGo free PSD template by Laaqiq</a></div>
+    </div>
+  </footer>
+
+
+  <script type="module" src="../task_4/js/main.js"></script>
+</body>
+
+
+</html>
