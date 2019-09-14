@@ -338,10 +338,10 @@ a {
 
     &-elem {
       width: 23%;
-      margin: 15px;
-      border-top: 3px solid $trapsparet-grey;
+      margin: 10px;
+      border-top: 3px solid rgba(226,226,226,0.858824);
       color: white;
-      padding: 10px;
+      padding: 10px 0;
 
       &:hover {
         border-image-source: linear-gradient(to left, white 74%, $lineColor 26%);;
@@ -872,12 +872,10 @@ a {
 
     &-elem {
       justify-content: space-between;
-      width: 100%;
       text-align: left;
       margin-bottom: 15px;
 
       &__photo {
-        width: 30%;
         margin-right: 10px;
       }
 
@@ -887,8 +885,6 @@ a {
       }
 
       &__info {
-        width: 70%;
-
         :hover {
           color: $light-blue;
         }
