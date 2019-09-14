@@ -20,8 +20,6 @@ import modalWindow from './modules/modalWindow.js';
 
 modalWindow.init();
 
-
-
 // TASK 9
 import fetch from './modules/blog.js';
 

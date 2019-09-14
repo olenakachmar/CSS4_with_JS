@@ -46,13 +46,13 @@ const getBlogs = () => {
           '            </div>';
 
           if (counting <= amountOfBlogsInsideFooter) {
-            document.getElementById('footerBlog').innerHTML += '<div class="flex-row footer__center-blog">\n' +
-            '          <div class="footer__center-blog-photo">\n' +
-            '            <a href="#"><img src=' + keysObj.previewImg + ' alt="desk" class="footer__center-blog-img"></a>\n' +
+            document.getElementById('footerBlog').innerHTML += '<div class="flex-row footer__blogs-elem">\n' +
+            '          <div class="footer__blogs-elem__photo">\n' +
+            '            <a href="#"><img src=' + keysObj.previewImg + ' alt="desk" class="footer__blogs-elem__img"></a>\n' +
             '          </div>\n' +
-            '          <div class="footer__center-blog-info">\n' +
+            '          <div class="footer__blogs-elem__info">\n' +
             '            <h6><a href="#">' + keysObj.title + '</a></h6>\n' +
-            '            <p class="footer__center-blog-info-time"><em>' + month + ` ${date}, ` + year + '</em></p>\n' +
+            '            <p class="footer__blogs-elem-info-time"><em>' + month + ` ${date}, ` + year + '</em></p>\n' +
             '          </div>\n' +
             '        </div>';
           }

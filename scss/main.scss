@@ -160,7 +160,7 @@ a {
 .section {
   &-header {
     justify-content: space-between;
-    margin: 50px 0 30px;
+    margin-bottom: 30px;
     height: 80px;
   }
 }
@@ -340,6 +340,8 @@ a {
       width: 23%;
       margin: 15px;
       border-top: 3px solid $trapsparet-grey;
+      color: white;
+      padding: 10px;
 
       &:hover {
         border-image-source: linear-gradient(to left, white 74%, $lineColor 26%);;
@@ -371,11 +373,23 @@ a {
 }
 
 .main {
+  &__story,
+  &__services,
+  &__unique,
+  &__whatWeDo,
+  &__team,
+  &__portfolio,
+  &__clients,
+  &__blog {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+
   &__counting {
     margin: 20px 0;
     background-color: $light-blue;
     color: $white;
-    height: 100%;
 
     &-list {
       justify-content: flex-start;
@@ -409,8 +423,6 @@ a {
   }
 
   &__services {
-    padding-bottom: 60px;
-
     &-section {
       display: flex;
       width: 100%;
@@ -444,8 +456,7 @@ a {
     position: relative;
     text-align: center;
     background: url('../images/unique-design/bg-unique-design.jpg') top right / cover;
-    height: auto;
-    padding-top: 20px;
+    margin-top: 70px;
 
     &-photo {
       &-big {
@@ -463,8 +474,6 @@ a {
   }
 
   &__whatWeDo {
-    padding-top: 30px;
-
     &-content {
       align-items: flex-start;
       margin-top: 20px;
@@ -534,7 +543,7 @@ a {
 
   &__testemonial {
     background-color: $testemonial-background;
-    margin: 50px 0;
+    margin-top: 50px;
     height: auto;
 
     &-next,
@@ -655,9 +664,8 @@ a {
 
   &__clients {
     background: url('../images/happy-client/bg-happy-client.jpg') top right / cover;
-    height: auto;
-    padding: 20px 0;
     margin-top: 50px;
+    padding-bottom: 70px;
 
     &-list {
       &-person {
@@ -769,7 +777,7 @@ a {
 
   &__map {
     background: url('../images/map/bg-map.jpg') top right / cover;
-    height: auto;
+    margin: 60px 0;
     padding: 20px 0;
 
     & > * {
