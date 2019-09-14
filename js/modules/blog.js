@@ -5,7 +5,7 @@ let counting = 0;
 const API = 'http://localhost:3000/api/blogs';
 
 const getBlogs = () => {
-  let fetch = fetch(API)
+  fetch(API)
       .then((response) => response.json())
       .then((data) => {
         let blogsArr = data.blogs;
@@ -58,15 +58,13 @@ const getBlogs = () => {
           }
         });
       }).catch((error) => console.error(error));
-
-  return fetch;
 };
 
-const fetch = {
+const blogModule = {
   init: () => {
     getBlogs();
   },
 };
 
-export default fetch;
+export default blogModule;
 

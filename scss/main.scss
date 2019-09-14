@@ -37,14 +37,11 @@ html {
 }
 
 body {
+  @include font(13px, $main-font, 400, $darker-white, normal);
   max-width: 1800px;
   background-color: $white;
-  font-size: 13px;
   line-height: 1.6em;
   letter-spacing: 0.5px;
-  color: $darker-white;
-  font-weight: 400;
-  font-family: $main-font;
 }
 
 h2 {
@@ -73,11 +70,6 @@ a {
   &:hover {
     cursor: pointer;
   }
-}
-
-.big {
-  font-size: 50px;
-  font-weight: 900;
 }
 
 .flex-column {
@@ -620,7 +612,7 @@ a {
       justify-content: space-between;
       width: 100%;
 
-      &-img {
+      &__img {
         width: 50%;
         transition: all .3s ease-in-out;
         padding: 10px;
@@ -793,9 +785,9 @@ a {
 .footer {
   background-color: $white;
 
-  &__left,
-  &__center,
-  &__right {
+  &__subscribe,
+  &__blogs,
+  &__instagram {
     text-align: left;
   }
 
@@ -804,7 +796,7 @@ a {
     padding: 30px 0;
   }
 
-  &__left {
+  &__subscribe {
     text-transform: none;
     padding: 20px 0;
 
@@ -866,45 +858,43 @@ a {
 
   }
 
-  &__center {
+  &__blogs {
     width: 100%;
     padding: 20px 0 20px 10px;
 
-    &-blog {
+    &-elem {
       justify-content: space-between;
       width: 100%;
       text-align: left;
       margin-bottom: 15px;
 
-      &-photo {
+      &__photo {
         width: 30%;
         margin-right: 10px;
       }
 
-      &-img {
+      &__img {
         height: 77px;
         width: 110px;
       }
 
-      &-info {
+      &__info {
         width: 70%;
 
         :hover {
           color: $light-blue;
-
         }
       }
     }
   }
 
   &--sections-names {
+    @include font(1.3em, $main-font, 400, $darker-white, uppercase);
     align-self: flex-start;
-    font-size: 1.3em;
     padding-bottom: 10px;
-    font-weight: 400;
   }
 
-  &__right {
+  &__instagram {
     padding: 20px 0 0 20px;
 
     &-morePhoto {
@@ -914,7 +904,6 @@ a {
 
   &__copyright {
     width: 100%;
-
     padding: 20px 0;
     border-top: 0.5px solid $darker-white;
   }

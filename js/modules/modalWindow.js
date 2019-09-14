@@ -1,13 +1,15 @@
 const modal = document.getElementById('myModal');
-const images = [...document.getElementsByClassName('main__portfolio-list-elem')];
+const images = [...document.getElementsByClassName('main__portfolio-list__elem')];
 const modalImg = document.getElementById('moduleImg');
 
 const closeModal = () => {
+
   modal.style.display = 'none';
   document.body.style.overflow = 'visible';
 };
 
 function openModal() {
+  console.log('bla');
   modal.style.display = 'flex';
   modalImg.src = this.children[0].src;
   document.body.style.overflow = 'hidden';
