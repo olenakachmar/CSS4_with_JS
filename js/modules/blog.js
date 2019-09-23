@@ -11,14 +11,7 @@ const getBlogs = () => {
         let blogsArr = data.blogs;
 
         blogsArr.forEach((e) => {
-          const keysObj = {
-            title: e.title,
-            description: e.description,
-            comments: e.comments,
-            watched: e.watched,
-            previewImg: e.previewImg,
-            published: e.published,
-          };
+          const keysObj = {...e};
           const date = new Date(keysObj.published).getDate();
           const month = monthNames[new Date(keysObj.published).getMonth()];
           const year = new Date(keysObj.published).getFullYear();
