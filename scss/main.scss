@@ -72,6 +72,10 @@ a {
   }
 }
 
+button:focus {
+  outline: 0;
+}
+
 .flex-column {
   display: flex;
   align-items: center;
@@ -155,6 +159,7 @@ a {
     transform: translate(-10px, -10px);
   }
 }
+
 //hover on pictures end
 
 .section {
@@ -245,6 +250,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
 //end modal
 
 .header {
@@ -339,7 +345,7 @@ a {
     &-elem {
       width: 23%;
       margin: 10px;
-      border-top: 3px solid rgba(226,226,226,0.858824);
+      border-top: 3px solid rgba(226, 226, 226, 0.858824);
       color: white;
       padding: 10px 0;
 
@@ -725,6 +731,10 @@ a {
         padding-top: 20px;
         border-top: 1px solid $trapsparet-grey;
 
+        & > * {
+          cursor: pointer;
+        }
+
         :nth-child(even) {
           margin-right: 20px;
           color: $light-blue;
@@ -863,6 +873,7 @@ a {
       border: none;
       background: $light-blue;
       letter-spacing: 0.7px;
+      cursor: pointer;
     }
 
   }
